@@ -1,8 +1,12 @@
 <li>
     {{name}}
     
+    {{#if eaten}}
     <button class="eat-burger" data-id="{{id}}">
         Eat The Burger
-    </button>
+    </button> 
     <button class="return-burger" data-id="{{id}}">Send It Back</button>
+    {{else}}
+    <button class="return-burger" data-id="{{id}}">Delete</button>
+    {{/if}}
 </li>

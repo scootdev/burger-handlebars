@@ -16,14 +16,14 @@
     {{#each burgers}}
         {{#if eaten}}
             {{> burgers/burger-block eaten=false}}
-        {{/unless}}
+        {{/if}}
     {{/each}}
 </ul>
 
 <h2>Order a burger:</h2>
 <form class="create-form">
     <div class="form-group">
-        <input type="text" id="burger-btn" name="burger">
+        <input type="text" id="burger" name="burger">
     </div>
     <button type="submit">Order Burger</button>
 </form>
