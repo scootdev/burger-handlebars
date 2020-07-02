@@ -1,0 +1,26 @@
+{
+  "name": "burger-handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottsharris-az/burger-handlebars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottsharris-az/burger-handlebars/issues"
+  },
+  "homepage": "https://github.com/scottsharris-az/burger-handlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "handlebars-helper-css": "^0.1.0",
+    "mysql": "^2.18.1"
+  }
+}

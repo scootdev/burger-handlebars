@@ -1,0 +1,19 @@
+<li class="m-2 list-group-item bg-danger">
+    <div class="row">
+        <div class="col text-center">
+            {{name}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            {{#if eaten}}
+    <button class="eat-burger btn btn-warning" data-id="{{id}}">
+        Eat The Burger
+    </button> 
+    <button class="return-burger btn btn-warning" data-id="{{id}}">Send It Back</button>
+    {{else}}
+    <button class="return-burger btn btn-warning" data-id="{{id}}">Delete</button>
+    {{/if}}
+        </div>
+    </div>
+</li>
